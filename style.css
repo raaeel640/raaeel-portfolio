@@ -38,8 +38,8 @@ nav {
 .logo {
     color: #1a1a1a;
     text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 17px;
+    font-weight: 700;
     letter-spacing: 2px;
 }
 
@@ -55,7 +55,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #d96c9d;
+    color: #a83f70;
 }
 
 
@@ -72,13 +72,12 @@ section {
 }
 
 .label {
-    color: #d96c9d;
-    font-size: 13px;
-    font-weight: bold;
+    color: #a83f70;
+    font-size: 16px;
+    font-weight: 700;
     letter-spacing: 3px;
-    margin-bottom: 25px;
+    margin-bottom: 22px;
 }
-
 
 /* HERO */
 
@@ -95,7 +94,7 @@ section {
 
 .hero h1 {
     max-width: 800px;
-    font-size: clamp(42px, 7vw, 76px);
+     font-size: clamp(42px, 7vw, 76px);
     line-height: 1.05;
     margin-bottom: 30px;
 }
@@ -114,7 +113,7 @@ section {
     display: inline-block;
     padding: 13px 25px;
 
-    background: #d96c9d;
+    background:  #a83f70;
     color: white;
 
     text-decoration: none;
@@ -130,6 +129,7 @@ section {
     transform: translateY(-2px);
     opacity: 0.9;
 }
+
 
 
 /* ABOUT */
@@ -180,6 +180,7 @@ section {
 .project-card span {
     display: block;
     margin-bottom: 6px;
+    color: #a83f70;
 }
 
 .project-card:hover {
@@ -278,7 +279,7 @@ footer {
 .project-link {
     display: inline-block;
     margin-top: 22px;
-    color: #d96c9d;
+    color: #a83f70;
     text-decoration: none;
     font-weight: bold;
     font-size: 14px;
