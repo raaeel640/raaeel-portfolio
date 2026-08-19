@@ -10,7 +10,7 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    background: #fff9fc;
+    background: #fff0f6;
     color: #1a1a1a;
     line-height: 1.6;
 }
@@ -72,7 +72,7 @@ section {
 }
 
 .label {
-    color: #a83f70;
+    color: #8F2F5F;
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 3px;
@@ -271,7 +271,7 @@ footer {
 .project-meta span {
     padding: 6px 10px;
     background: #fff0f6;
-    color: #8e4770;
+    color: #8F2F5F;
     border-radius: 20px;
     font-size: 12px;
 }
@@ -279,7 +279,7 @@ footer {
 .project-link {
     display: inline-block;
     margin-top: 22px;
-    color: #a83f70;
+    color:#8F2F5F;
     text-decoration: none;
     font-weight: bold;
     font-size: 14px;
@@ -401,7 +401,7 @@ footer {
 }
 
 .contact-links a {
-    color: #d96c9d;
+    color: #8F2F5F;
     text-decoration: none;
     font-weight: bold;
     font-size: 14px;
@@ -427,7 +427,7 @@ footer {
     padding: 16px 18px;
     border: 1px solid #e8c7d8;
     border-radius: 12px;
-    background: #fff9fc;
+    background: #fff0f6;
     color: #1a1a1a;
     font-family: inherit;
     font-size: 15px;
