@@ -38,10 +38,10 @@
                 & UI/UX Designer
             </h1>
 
-         <p class="intro">
-    I build software solutions and thoughtful digital experiences,
-    combining backend development with UI/UX design.
-</p>
+            <p class="intro">
+                Building thoughtful digital experiences through
+                technology and design.
+            </p>
 
             <a href="#projects" class="button">View My Work</a>
         </section>
@@ -62,7 +62,7 @@
         </section>
 
 
-    <!-- PROJECTS -->
+  <!-- PROJECTS -->
 <section id="projects">
 
     <p class="label">MY WORK</p>
@@ -73,8 +73,14 @@
 
         <!-- CRUD API -->
         <article class="project-card">
+
+            <img
+                src="swagger.png"
+                alt="CRUD API project"
+                class="project-image"
+            >
+
             <span>01</span>
-             <img src="swagger.png" alt="CRUD API project preview" class="project-thumbnail">
             <h3>CRUD API</h3>
 
             <p>
@@ -92,13 +98,20 @@
             <a href="crud-api.html" class="project-link">
                 View Case Study →
             </a>
+
         </article>
 
 
         <!-- COMMAND DESIGNER -->
         <article class="project-card">
+
+            <img
+                src="casetool.PNG"
+                alt="CommandDesigner project"
+                class="project-image"
+            >
+
             <span>02</span>
-             <img src="casetool.PNG" alt="Case tool(command designer)project preview" class="project-thumbnail">
             <h3>CommandDesigner</h3>
 
             <p>
@@ -117,13 +130,20 @@
             <a href="commanddesigner.html" class="project-link">
                 View Case Study →
             </a>
+
         </article>
 
 
         <!-- INVENTORY IQ -->
         <article class="project-card">
+
+            <img
+                src="inventory.PNG"
+                alt="InventoryIQ project"
+                class="project-image"
+            >
+
             <span>03</span>
-             <img src="inventory.PNG" alt="Inventory project preview" class="project-thumbnail">
             <h3>InventoryIQ</h3>
 
             <p>
@@ -141,13 +161,20 @@
             <a href="inventoryiq.html" class="project-link">
                 View Case Study →
             </a>
+
         </article>
 
 
         <!-- STEADY -->
         <article class="project-card">
+
+            <img
+                src="steady.PNG"
+                alt="Steady UX case study"
+                class="project-image"
+            >
+
             <span>04</span>
-             <img src="steady.PNG" alt="Steady project preview" class="project-thumbnail">
             <h3>Steady</h3>
 
             <p>
@@ -167,15 +194,14 @@
             <a href="steady.html" class="project-link">
                 View Case Study →
             </a>
+
         </article>
 
     </div>
 
 </section>
-
-
-        <!-- CONTACT -->
-   <!-- CONTACT -->
+  
+<!-- CONTACT -->
 <section id="contact">
     <p class="label">CONTACT</p>
 
@@ -185,12 +211,41 @@
         Interested in my work or want to get in touch?
     </p>
 
-    <a
-        href="mailto:raaeelfatima9@gmail.com"
-        class="button"
-    >
-        Contact Me
-    </a>
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+
+        <!-- Web3Forms Access Key -->
+        <input
+            type="hidden"
+            name="access_key"
+            value="822a8025-da80-4e84-9d17-1c9d0e1ac41a"
+        >
+
+        <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            required
+        >
+
+        <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+        >
+
+        <textarea
+            name="message"
+            placeholder="Your Message"
+            rows="6"
+            required
+        ></textarea>
+
+        <button type="submit" class="button">
+            Send Message
+        </button>
+
+    </form>
 
     <div class="contact-links">
 
