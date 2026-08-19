@@ -164,13 +164,22 @@ section {
 }
 
 .project-card {
-    padding: 35px;
-    background: white;
+    position: relative;
+}
 
-    border: 1px solid #eadde5;
-    border-radius: 18px;
+.project-image {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 14px;
+    border: 1px solid #e8c7d8;
+}
 
-    transition: 0.2s ease;
+.project-card span {
+    display: block;
+    margin-bottom: 6px;
 }
 
 .project-card:hover {
@@ -401,13 +410,68 @@ footer {
     color: #8e4770;
     text-decoration: none;
 }
-
-
-.project-thumbnail {
+.contact-form {
     width: 100%;
-    height: 180px;
-    object-fit: cover;
-    margin: 20px 0;
+    max-width: 650px;
+    margin: 35px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px 18px;
+    border: 1px solid #e8c7d8;
     border-radius: 12px;
-    border: 1px solid #eadde5;
+    background: #fff9fc;
+    color: #1a1a1a;
+    font-family: inherit;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.contact-form input {
+    height: 52px;
+}
+
+.contact-form textarea {
+    min-height: 160px;
+    resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #d96c9d;
+    box-shadow: 0 0 0 3px rgba(217, 108, 157, 0.12);
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #9b8790;
+}
+
+.contact-form .button {
+    align-self: flex-start;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+@media (max-width: 600px) {
+    .contact-form {
+        max-width: 100%;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 14px;
+    }
+
+    .contact-form .button {
+        width: 100%;
+    }
 }
