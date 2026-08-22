@@ -37,7 +37,7 @@ This project demonstrates my work in AI workflow design and backend engineering 
 
 ## Reminder
 
-I have set a reminder to add the AI Workflow System case study to my portfolio on **29 August 2026**.
+I have set a reminder to add the AI Workflow System case study to my portfolio on **15 September 2026**.
 
 ## Build Context
 
