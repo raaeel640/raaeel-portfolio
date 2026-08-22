@@ -92,13 +92,13 @@ raaeel-portfolio/
 
 ├── raeeelcv.pdf
 └── README.md
-
+**
 Getting Started
-Prerequisites
+Prerequisites**
 
 No special development environment is required to view the portfolio.
 
-You only need:
+**You only need:**
 
 A modern web browser
 Git, if you want to clone the repository
@@ -111,12 +111,12 @@ Because this is a static website, it can be opened directly in a browser.
 
 Open:
 
-index.html
+**index.html**
 
 For a more reliable local development experience, serve the folder
 through a local web server such as VS Code Live Server.
 
-Usage
+**Usage**
 
 From the homepage, visitors can:
 
@@ -161,7 +161,7 @@ The portfolio uses a simple static frontend architecture.
                     │
                     ▼
                   Vercel
-Analytics and Social Sharing
+**Analytics and Social Sharing**
 
 Google Analytics is integrated to understand how visitors interact
 with the portfolio.
@@ -170,9 +170,9 @@ The portfolio also includes Open Graph metadata so that shared links
 can generate title, description, and image previews on social platforms.
 
 The social sharing metadata was tested using an Open Graph audit tool.
-
+**
 Current Analytics Snapshot
-
+**
 The portfolio has received initial real visitor activity, including:
 
 7 active users
@@ -183,7 +183,7 @@ Visitors from Pakistan and the United States
 These numbers represent an early snapshot rather than long-term traffic
 and will change as more people visit the site.
 
-V2 Evaluation Results
+**V2 Evaluation Results**
 
 The second social-preview audit produced a 93/100 site health score.
 
@@ -201,7 +201,7 @@ aspect ratios, and minor metadata optimization.
 The portfolio was also checked across social preview formats including
 LinkedIn, Facebook, and X/Twitter.
 
-Limitations
+**Limitations**
 
 Current limitations include:
 
@@ -212,7 +212,8 @@ not perfectly optimized for every platform's recommended aspect ratio.
 Analytics data is still limited because the website is relatively new.
 The portfolio is primarily a static frontend, so content updates
 currently require editing and redeploying the site.
-AI Transparency
+
+**AI Transparency**
 
 AI tools were used as development and design support during the project,
 including help with brainstorming, content refinement, debugging,
@@ -222,7 +223,7 @@ I reviewed and tested the resulting implementation myself, including
 the deployed website, navigation, project links, analytics setup,
 social metadata, and social preview behavior.
 
-Future Improvements
+**Future Improvements**
 
 Planned improvements include:
 
