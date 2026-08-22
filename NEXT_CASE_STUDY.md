@@ -1,25 +1,44 @@
-# How to Add My Next Case Study
+# Next Case Study Plan
 
-When I complete my next project, I will add it to the Projects section of my portfolio and create a dedicated case-study page.
+## Where it will go
 
-## Steps
+The next case study will be added to the Projects section of my portfolio website.
 
-1. Add a new project card to `index.html` with the project name, image, short description, technologies, and case-study link.
-2. Create a new HTML case-study page using the structure of my existing project pages.
-3. Structure the case study using three beats:
-   - **Problem:** What problem was the project solving?
-   - **What I Did:** My role, process, technical decisions, tools, and implementation.
-   - **What Came Of It:** The outcome, results, lessons, or impact.
-4. Add the project image with descriptive alt text.
-5. Add the page title and meta description.
-6. Add Open Graph and Twitter/X metadata for social sharing.
-7. Add the favicon and verify that all images and links work.
-8. Test the new page on desktop and mobile.
+I will create a dedicated case-study page for the project and link it from its project card on the main portfolio page.
+
+## How I will add it
+
+I will follow the same three-beat case-study structure used in my portfolio:
+
+1. **Problem** — Explain the problem the project was designed to solve and who it was intended for.
+2. **What I Did** — Describe my role, process, technical decisions, tools, and implementation.
+3. **What Came Of It** — Explain the outcome, results, lessons learned, and what I would improve next.
+
+### Implementation steps
+
+1. Add a new project card to the Projects section of `index.html`.
+2. Add the project name, short description, technologies, and project image.
+3. Create a dedicated HTML case-study page.
+4. Write the case study using the Problem → What I Did → What Came Of It structure.
+5. Add the page title, meta description, Open Graph tags, and social preview image.
+6. Add descriptive alt text to project images.
+7. Test all links, images, and navigation.
+8. Test the new case-study page on mobile and desktop.
 9. Push the changes to GitHub and verify the Vercel deployment.
-10. Open the live page and check the final project link and social preview.
+10. Open the live page and verify the final case study.
 
-## Next Case Study
+## Next Piece of Work
 
-My next planned case study is my **AI Workflow Backend Capstone**.
+My next planned portfolio case study is:
 
-I will document the problem, what I built, the technical decisions I made, and the results of the project before adding it to my portfolio.
+**AI Workflow System**
+
+This project demonstrates my work in AI workflow design and backend engineering and will add another technical project to my portfolio.
+
+## Reminder
+
+I have set a reminder to add the AI Workflow System case study to my portfolio on **29 August 2026**.
+
+## Build Context
+
+I will keep my existing Claude Project so that it retains my portfolio voice, stack, and identity kit. I can use this existing context when creating the next case study instead of rebuilding the portfolio context from scratch.
